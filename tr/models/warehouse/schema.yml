@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: traffic_source
+    description: "traffic WAREHOUSE STORAGE"
+    schema: DWH
+    tables:
+      - name: elt
