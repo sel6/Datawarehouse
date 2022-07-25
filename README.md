@@ -16,9 +16,9 @@
   <p align="center">
     A fully dockerized ELT pipeline project, using Airflow, MySQL, DBT, and Redas.
     <br />
-    <a href="https://github.com/zelalemgetahun9374/sensor-data-ELT/issues">Report Bug</a>
+    <a href="https://github.com/sel6/Datawarehouse/issues">Report Bug</a>
     ·
-    <a href="https://github.com/zelalemgetahun9374/sensor-data-ELT/issues">Request Feature</a>
+    <a href="https://github.com/sel6/Datawarehouse/issues">Request Feature</a>
   </p>h
 </p>
 
@@ -51,7 +51,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][pipeline.png]](#)
+<p align="center">
+     <img src="pipeline.png">
+</p>
 
 A fully dockerized scalable ELT pipeline using MySQL, Airflow, DBT and Redash.
 
