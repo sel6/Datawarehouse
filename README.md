@@ -14,12 +14,12 @@
   <h3 align="center">Sensor Data ELT</h3>
 
   <p align="center">
-    A fully dockerized ELT pipeline project, using Airflow, MySQL, DBT, and Redas.
+    A fully dockerized ELT pipeline project, using Airflow, MySQL, DBT, and Redash.
     <br />
     <a href="https://github.com/sel6/Datawarehouse/issues">Report Bug</a>
     ·
     <a href="https://github.com/sel6/Datawarehouse/issues">Request Feature</a>
-  </p>h
+  </p>
 </p>
 
 
