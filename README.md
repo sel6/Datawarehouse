@@ -90,8 +90,7 @@ Make sure you have docker installed on local machine.
 3. Open Airflow web browser
    ```JS
    Navigate to `http://localhost:8010/` on the browser
-   activate and trigger the `create_tables` dag
-   activate and trigger the `populate_data` dag
+   activate and trigger the `loader` dag
    activate and trigger the `dbt_dag` dag
    ```
 4. Access redash dashboard
