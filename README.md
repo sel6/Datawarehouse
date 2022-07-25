@@ -14,12 +14,12 @@
   <h3 align="center">Sensor Data ELT</h3>
 
   <p align="center">
-    A fully dockerized ELT pipeline project, using MYSQL, dbt, Apache Airflow, and Redash.
+    A fully dockerized ELT pipeline project, using Airflow, MySQL, DBT, and Redas.
     <br />
     <a href="https://github.com/zelalemgetahun9374/sensor-data-ELT/issues">Report Bug</a>
     ·
     <a href="https://github.com/zelalemgetahun9374/sensor-data-ELT/issues">Request Feature</a>
-  </p>
+  </p>h
 </p>
 
 
