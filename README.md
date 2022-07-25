@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](#)
+[![Product Name Screen Shot][pipeline.png]](#)
 
 A fully dockerized scalable ELT pipeline using MySQL, Airflow, DBT and Redash.
 
