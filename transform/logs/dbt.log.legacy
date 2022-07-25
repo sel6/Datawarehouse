@@ -1,8 +1,0 @@
-2022-07-23 10:24:42.114377 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
-2022-07-23 10:31:03.529383 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
-2022-07-23 10:54:17.673552 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
-2022-07-23 10:54:21.794460 (MainThread): The 'warn' method is deprecated, use 'warning' instead
-2022-07-23 10:55:12.850583 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
-2022-07-23 10:55:18.286649 (MainThread): The 'warn' method is deprecated, use 'warning' instead
-2022-07-23 11:23:30.835750 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
-2022-07-23 11:23:39.085340 (MainThread): The 'warn' method is deprecated, use 'warning' instead
