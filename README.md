@@ -61,9 +61,9 @@ A fully dockerized scalable ELT pipeline using MySQL, Airflow, DBT and Redash.
 ### Built With
 
 Tech Stack used in this project
-* [MYSQL](https://mysql.com)
-* [Apache Airflow](https://airflow.apache.org/)
-* [dbt](https://www.getdbt.com/)
+* [Airflow](https://airflow.apache.org/)
+* [MySQL](https://mysql.com)
+* [DBT](https://www.getdbt.com/)
 * [Redash](https://redash.io/)
 
 
