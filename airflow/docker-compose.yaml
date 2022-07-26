@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+
+    logging: 
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  mysql:
+    image: mysql:5.7.27
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=mydatabase
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=secret
+    volumes:
+        - ../op_files:/var/lib/mysql-files/
+    ports:
+        - "42062:3306"
+
+  webserver:
+    build: ./dockerfiles
+    links:
+      - mysql:mysql
+    restart: always
+    depends_on:
+      - postgres
+      - mysql
+    environment:
+      - INSTALL_MYSQL=y
+      - LOAD_EX=n
+      - EXECUTOR=Local
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ../scripts:/usr/local/airflow/includes
+      - ../data:/usr/local/airflow/data
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    ports:
+      - "8081:8080"
+    command: webserver
