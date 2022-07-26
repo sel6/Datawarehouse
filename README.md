@@ -89,9 +89,11 @@ Make sure you have docker installed on local machine.
    ```
 3. Open Airflow web browser
    ```JS
-   Navigate to `http://localhost:8010/` on the browser
-   activate and trigger the `loader` dag
-   activate and trigger the `dbt_dag` dag
+   Navigate to `http://localhost:8081/` on the browser
+   activate and trigger the `create_connection` dag
+   activate and trigger the `create_new_db` dag
+   activate and trigger the `create_new_table` dag
+   activate and trigger the `fill_table` dag
    ```
 4. Access redash dashboard
    ```JS
@@ -99,11 +101,10 @@ Make sure you have docker installed on local machine.
    ```
 5. Access your mysql database using adminer
    ```JS
-   Navigate to `http://localhost:8090/` on the browser
-   use `mysqldb` for server
+   Navigate to `http://localhost:42062/` on the browser
+   use `warehouse` for db name
    use `root` for username
-   use `Selam@0102.` for password
-   Watch for dbdtdb and analytics databses
+   use `root` for password
    ```
 
 <!-- CONTACT -->
