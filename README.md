@@ -78,14 +78,14 @@ Make sure you have docker installed on local machine.
   
 ### Installation
 
-1. Clone the repo
+1. Clone the repo and Navigate
    ```sh
    git clone https://github.com/sel6/Datawarehouse.git
+   Navigate to airflow/dags
    ```
 2. Run
    ```sh
-    docker-compose build
-    docker-compose up
+    docker-compose -f docker-compose.yaml up --build
    ```
 3. Open Airflow web browser
    ```JS
