@@ -1,0 +1,4 @@
+mysql-connector
+pandas
+airflow
+dbt-mysql
