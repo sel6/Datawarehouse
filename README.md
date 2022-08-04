@@ -55,7 +55,7 @@
      <img src="pipeline.png">
 </p>
 
-A fully dockerized scalable ELT pipeline using PostgreSQL, Airflow, DBT and Redash.
+Fully dockerized scalable ELT pipeline using PostgreSQL, Airflow, DBT and Redash.
 
 
 ### Built With
