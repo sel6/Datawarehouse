@@ -14,7 +14,7 @@
   <h3 align="center">Sensor Data ELT</h3>
 
   <p align="center">
-    A fully dockerized ELT pipeline project, using Airflow, MySQL, DBT, and Redash.
+    A fully dockerized ELT pipeline project, using Airflow, PostgreSQL, DBT, and Redash.
     <br />
     <a href="https://github.com/sel6/Datawarehouse/issues">Report Bug</a>
     ·
@@ -55,14 +55,14 @@
      <img src="pipeline.png">
 </p>
 
-A fully dockerized scalable ELT pipeline using MySQL, Airflow, DBT and Redash.
+A fully dockerized scalable ELT pipeline using PostgreSQL, Airflow, DBT and Redash.
 
 
 ### Built With
 
 Tech Stack used in this project
 * [Airflow](https://airflow.apache.org/)
-* [MySQL](https://mysql.com)
+* [PostgreSQL](https://postgresql.com)
 * [DBT](https://www.getdbt.com/)
 * [Redash](https://redash.io/)
 
@@ -97,14 +97,14 @@ Make sure you have docker installed on local machine.
    ```
 4. Access redash dashboard
    ```JS
-   Navigate to `http://localhost:5000/` on the browser
+   Navigate to `http://localhost:5011/` on the browser
    ```
-5. Access your mysql database using adminer
+5. Access your postgres database
    ```JS
-   Navigate to `http://localhost:42062/` on the browser
+   Navigate to `http://localhost:5432/` on the browser
    use `warehouse` for db name
-   use `root` for username
-   use `root` for password
+   use `warehouse` for username
+   use `warehouse` for password
    ```
 
 <!-- CONTACT -->
